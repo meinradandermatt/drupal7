@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
 
@@ -1021,4 +1021,17 @@ padding:20px 0 20px 0;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-size: 12px;
+}
+
+.para__Multichannel_Formate_\%3aBody{
+
+color:red;
+}
+
+.para__Multichannel_Formate_\%3aBody_Text_Untertitel_H1 {
+	font-weight: bold;
+}
+
+.char_Italic {
+	color:blue;
 }
