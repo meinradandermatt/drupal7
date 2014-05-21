@@ -181,19 +181,20 @@ html {
  * $LINKS
  */
 a {
-  color: #e4621c;
+  color: black;
 }
 a:visited {
-  color: #e4621c;
+  color: #8C8C8C;
 }
 a:focus {
   color: black;
 }
 a:hover {
-  color: black;
+  color: #8C8C8C;
+  text-decoration: underline;
 }
 a:active {
-  color: #efa47b;
+  color: #8C8C8C;
 }
 
 /**
@@ -242,7 +243,8 @@ h3 a:hover, .gamma a:hover, .site-branding__name a:hover,
 h4 a:hover, .delta a:hover, caption a:hover,
 h5 a:hover, .epsilon a:hover,
 h6 a:hover, .zeta a:hover {
-  color: #064771;
+  color: #8C8C8C;
+  text-decoration: none;
 }
 
 h1, .alpha {
@@ -312,7 +314,7 @@ blockquote {
   border-left-width: 0.71429em;
   padding-left: 0.71429em;
   font-style: italic;
-  color: #064771;
+  color: #8C8C8C;
 }
 blockquote p {
   margin: 0;
@@ -368,7 +370,7 @@ mark,
   color: #fff;
 }
 .block--nav-bar a:hover, .block--nav-bar a:focus {
-  color: #064771;
+  color: #8C8C8C;
 }
 @media (min-width: 600px) {
   .block--nav-bar a {
@@ -502,7 +504,7 @@ html.js fieldset.collapsible .fieldset-title {
 }
 html.js fieldset.collapsible .fieldset-title:hover {
   background-color: #d9e9ef;
-  color: #064771;
+  color: #8C8C8C;
 }
 html.js fieldset.collapsible .fieldset-wrapper {
   padding: 18px 1em;
@@ -875,7 +877,7 @@ div.password-indicator {
   color: #fff;
 }
 .site-branding__name:hover {
-  color: #064771;
+  color: #8C8C8C;
 }
 
 .l-region--header {
@@ -1034,4 +1036,19 @@ color:red;
 
 .char_Italic {
 	color:blue;
+}
+
+/**
+ * Daniel ZOIXXXXX
+ */
+.pane-title  a{
+	font-family: 'Droid Serif', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    line-height: 28px;
+    margin: 0 0 10px;
+    padding: 0;
+    text-transform: uppercase;
 }
