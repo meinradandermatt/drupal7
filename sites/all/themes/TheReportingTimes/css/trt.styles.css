@@ -882,8 +882,9 @@ div.password-indicator {
 	display:hidden;
 }
 
-.l-branding {
+header .l-branding {
 	margin: 30px 0 15px 0;
+	display: none;
 }
 
 .mean-container .mean-bar  {
@@ -1005,8 +1006,9 @@ padding:20px 0 20px 0;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 0px; }
 
-.l-region--header{
-	display: none;
+header .l-region--header{
+	margin: 0 0 0 20px;
+	float: none;
 }
 
 .block-system-main-menu { margin:50px 0px 0 0; }

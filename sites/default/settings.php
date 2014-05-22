@@ -220,13 +220,14 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'db3021401',
-      'username' => 'user30214',
-      'password' => 'lQV7izxW-',
-      'host' => 'mysql04',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
+  'database' => 'drupal7',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
     ),
   ),
 );
