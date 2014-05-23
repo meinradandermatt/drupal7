@@ -940,14 +940,14 @@ header .l-branding {
  .masonry-item {
   width:  240px;
   background: #fee4d3;
-  border-bottom: 2px solid #333;
+  border-bottom: 1px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 0px;
   margin:10px 10px 0 0;
 }
 
 .views-row {
-	border-bottom: 2px solid #333;
+	border-bottom: 1px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 0px;
 }
@@ -961,7 +961,7 @@ header .l-branding {
 float:left;
 width:100%;
 padding:0;
-margin:10px 10px 10px 0;
+margin:0px 0px 10px 0;
 list-style-image: none;
   list-style-type: none;
 }
@@ -973,7 +973,7 @@ list-style-image: none;
 text-decoration:none;
 color:black;
 padding:0.2em 0.6em;
-margin: 20px 30px 10px 0;
+margin: 0px 30px 10px 0;
 }
 
 .block--system-main-menu .menu a.active  {
@@ -1004,7 +1004,7 @@ padding:20px 0 20px 0;
  * header
  */
  
-.l-header { border-bottom: 2px solid #333;
+.l-header { border-bottom: 1px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 0px; }
 
@@ -1014,6 +1014,76 @@ header .l-region--header{
 }
 
 .block-system-main-menu { margin:50px 0px 0 0; }
+
+.headermainimage img{
+				margin-left:auto;
+				margin-right:auto;
+				display: block;
+				}
+
+.leftemptyspace {
+	height:1px;
+	min-width:50px;
+}
+
+.rightemptyspace {
+	height:1px;
+	min-width:50px;
+}
+				
+.headerdescription {
+text-align: center;
+overflow: hidden;
+}
+
+.headerdescription p {
+  display: inline-block;
+  position: relative;  
+  margin-bottom:0px;
+}
+.headerdescription p:before,
+.headerdescription p:after {
+  content: "";
+  position: absolute;
+  height: 0.7em;
+  border-bottom: 1px solid #333;
+  top: 0;
+  width:100%;
+}
+.headerdescription p:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.headerdescription p:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.pane-node-field-smallleftimage .field{
+	margin-bottom:0px;
+}
+
+/**
+ * footer
+ */
+ 
+.l-region--footer {
+	border-top: 1px solid #333;
+	padding:5px;
+	font-size: 12px;
+} 
+
+.l-region--footer h2{
+	font-size: 14px;
+} 
+ 
+ 	.l-region--footer p {
+		margin-bottom:0.4em;
+	} 
+	.l-region--footer a {
+	display:block;
+		margin-bottom:1.0em;
+	} 
 
 /**
  * Content Type Reporting Times
@@ -1040,6 +1110,52 @@ color:red;
 	color:blue;
 }
 
+/**
+ * RSS Feed Icon
+ */
+ 
+.feed-icon {
+	display:none;
+	}
+	
+@media (min-width: 0) and (max-width: 44em) {
+/**
+ * Page Layout
+ */
+	.js div.l-page  {
+		padding-left: 3%;
+	  }
+  
+	.leftemptyspace {
+		height:1px;
+		min-width:20px;
+	}
+
+	.rightemptyspace {
+		height:1px;
+		min-width:20px;
+	}
+	 
+	.l-region--footer {
+		font-size: 10px;
+	} 
+
+	.l-region--footer h2{
+		font-size: 12px;
+	} 
+
+	.pane-node-field-impressum {
+		padding-left: 0.5em;
+	}
+	
+	.l-region--footer div {
+		display:inline-block;
+		float:left;
+		min-width:150px;
+		
+	}
+
+}
 /**
  * Daniel ZOIXXXXX
  */
